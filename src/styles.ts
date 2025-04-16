@@ -7,7 +7,7 @@ const defaultOptions = {
   arrowColor: '#fff',
   backgroundColor: '#fff',
   beaconSize: 36,
-  overlayColor: 'rgba(0, 0, 0, 0.5)',
+  overlayColor: 'transparent',
   primaryColor: '#f04',
   spotlightShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
   textColor: '#333',

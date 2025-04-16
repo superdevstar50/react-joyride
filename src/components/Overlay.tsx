@@ -249,6 +249,14 @@ export default class JoyrideOverlay extends React.Component<OverlayProps, State>
         role="presentation"
         style={overlayStyles}
       >
+        <div style={{
+          position: "fixed",
+          left: 0,
+          top: 0,
+          width: "100vw",
+          height:"100vh",
+          backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        }} />
         {spotlight}
       </div>
     );
